@@ -4,4 +4,5 @@ The Movie Trailer Website project consists of server-side code to store a list o
 ## How to launch the program.
 Install [Python](https://www.python.org/)
 Execute the python script, _entertainment_center.py_ in your environment.
+Check out [How to execute python script.](http://pythoncentral.io/execute-python-script-file-shell/)
 
