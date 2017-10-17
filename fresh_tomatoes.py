@@ -56,6 +56,14 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        h2 {
+          color: blue;
+          font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+          font-weight: bold;
+        }
+        .navbar-inverse .navbar-brand {
+            color: aqua;
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
@@ -127,7 +135,6 @@ movie_tile_content = '''
     <h2>{movie_title}</h2>
 </div>
 '''
-
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
